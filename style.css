@@ -1,0 +1,15 @@
+
+:root {
+    --primary-light-green : #D1FAE5;
+    --primary-dark-green : #047857;
+}
+
+
+
+body {
+    background-color: #D1FAE5;
+    margin: auto;
+    display: block;
+    padding: 3rem, 5rem;
+
+}
