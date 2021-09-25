@@ -1,15 +1,125 @@
 
-:root {
-    --primary-light-green : #D1FAE5;
-    --primary-dark-green : #047857;
+body {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    background-color: #D1FAE5;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+button{
+    width: 15rem;
+    height: 3rem;
+    align-self: center;
+    border-radius: .7rem .7rem;
+    border-style: solid;
+    margin-top: 7%;
+    margin-bottom: 5%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.input-angle  {
+    width: 20rem;
+    height: 2.5rem;
+    align-self: center;
+    border-radius: .7rem .7rem;
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 1.25%;
+}
+
+.input-side {
+    width: 20rem;
+    height: 2.5rem;
+    align-self: center;
+    border-radius: .7rem .7rem;
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 1.25%;
+}
+
+.input-base {
+    width: 20rem;
+    height: 2.5rem;
+    align-self: center;
+    border-radius: .7rem .7rem;
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 1.25%;
+}
+.input-height {
+    width: 20rem;
+    height: 2.5rem;
+    align-self: center;
+    border-radius: .7rem .7rem;
+    font-size: larger;
+    margin-top: 2%;
+    margin-bottom: 1.25%;
+}
+
+#output {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
 }
 
 
 
-body {
-    background-color: #D1FAE5;
-    margin: auto;
-    display: block;
-    padding: 3rem, 5rem;
+label {
+    align-self: center;
+    font-size: x-large;
+}
 
+nav {
+    background-color: #047857;
+    color: #ECFDF5;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 0rem 2rem;
+    padding-top: 0.5rem;
+    margin: auto;
+}
+
+.nav-list {
+    box-sizing: border-box;
+    margin: auto;
+    color: #ECFDF5; 
+    padding-left: 575px;
+    padding-bottom: 10px;
+}
+.nav-item {
+    display: block;
+    color: #ECFDF5;
+    text-align: right;
+    padding: 0.5rem 4rem;
+}
+
+.nav-text {
+    justify-content: right;
+}
+
+.question {
+    text-align: left;
+    font-size: 25px;
+    margin-top: 5%;
+}
+
+.output-score {
+    font-size: larger;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.area-formula {
+    border: 1px solid black;
+    padding: 1rem 1rem;
 }

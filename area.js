@@ -14,7 +14,7 @@ function calculateProduct(b,h){
 function calculateArea() {
     const areaOfTriangle = (1/2)*calculateProduct(inputBase.value,inputHeight.value);
     //console.log(areaOfTriangle);
-    outputArea.innerText = "The Area of the triangle is: " + areaOfTriangle;
+    outputArea.innerText = "The Area of the triangle ▲ is: " + areaOfTriangle +"sq.cm";
 }
 
 

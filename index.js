@@ -20,7 +20,7 @@ function isATriangle(){
         outputTriangle.innerText = "The given angles form a triangle!";
     }
     else{
-        outputTriangle.innerText = "The given angles do not form a triangle";
+        outputTriangle.innerText = "The given angles do not form a triangle △";
     }
 
 }

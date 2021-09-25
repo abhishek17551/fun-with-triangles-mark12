@@ -2,7 +2,7 @@ const quizForm = document.querySelector(".quiz-form");
 const submitAnswerButton = document.querySelector("#submit-answer");
 const outputResult = document.querySelector(".output-score");
 
-const correctAnswers = ["45°", "Right-angled Triangle"];
+const correctAnswers = ["45°", "Right-angled Triangle","Isosceles Triangle","24 cm"];
 
 function calculateScore(){
     let score=0;
