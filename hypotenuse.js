@@ -4,9 +4,16 @@ const outputHypotenuse = document.querySelector("#output");
 
 
 function calculateSumOfSquares(a,b){
-    const sumOfSquares = (a*a) + (b*b);
+    if(a <= 0 || b <= 0){
+        outputHypotenuse.innerText = "Please enter positive sides";
+        return sumOfSquares;
+    }
+    else{
+        const sumOfSquares = (a*a) + (b*b);
     //console.log(sumOfSquares);
     return sumOfSquares;
+    }
+    
 }
 
 

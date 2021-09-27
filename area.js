@@ -7,9 +7,15 @@ const outputArea = document.querySelector("#output");
 // const height = Number(inputHeight.value);
 
 function calculateProduct(b,h){
-    const baseHeightProduct = (b*h);
-    return baseHeightProduct;
-}
+    if (b <= 0 || h <= 0){
+        outputArea.innerText = "Please enter positive sides";
+        return baseHeightProduct;
+    }
+    else {
+        const baseHeightProduct = (b*h);
+        return baseHeightProduct;
+    }
+    }
 
 function calculateArea() {
     const areaOfTriangle = (1/2)*calculateProduct(inputBase.value,inputHeight.value);

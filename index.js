@@ -4,9 +4,18 @@ const outputTriangle = document.querySelector("#output");
 
 
 function calculateSumOfAngles(angle1,angle2,angle3){
-    const sumOfAngles = angle1 + angle2 + angle3;
-    //console.log(sumOfAngles);
+    if(angle1 <= 0 || angle2 <=0 || angle3 <=0){
+        outputTriangle.innerText = "All the angles in a triangle should be positive."
+        return sumOfAngles;
+    }
+    else if (angle1 === 180 || angle2 === 180 || angle3 === 180){
+        outputTriangle.innerText = "The angle form a straight line."
+    }
+     
+    else{
+    const sumOfAngles = Number(angle1) + Number(angle2) + Number(angle3);
     return sumOfAngles;
+    }
 }
 
 function isATriangle(){
